@@ -105,8 +105,8 @@ span {
   height: 404px;
   border-radius: 12px;
   margin: 0;
-  position: absolute;
-  top: 40%;
+  position: relative;
+  top: 10%;
 }
 
 @media (max-width: 768px) {
