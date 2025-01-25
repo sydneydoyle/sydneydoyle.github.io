@@ -84,6 +84,10 @@ p {
   font-weight: 300;
 }
 
+span {
+  font-weight: bold;
+}
+
 .social-links {
   margin-top: 2rem;
   display: flex;
