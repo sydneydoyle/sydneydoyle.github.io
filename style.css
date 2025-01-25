@@ -106,8 +106,7 @@ span {
   border-radius: 12px;
   margin: 0;
   position: absolute;
-  top: 60%;
-  transform: translateY(-50%);
+  top: 40%;
 }
 
 @media (max-width: 768px) {
