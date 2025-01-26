@@ -1,5 +1,3 @@
-/* main stylesheet */  
-
 * {
     margin: 0;
     padding: 0;
@@ -89,6 +87,10 @@
   span {
     font-weight: bold;
   }
+
+  ul {
+    padding-left: 2rem; /* Indents the list */
+  }
   
   .social-links {
     margin-top: 2rem;
@@ -111,42 +113,40 @@
     top: 15%;
   }
 
-/* mobile */  
+  /* responsive */
 
-  @media (max-width: 768px) {
-    body {
-      padding-top: 1rem;
-    }
-  
-    .container {
-      grid-template-columns: 1fr;
-      text-align: left;
-    }
-  
-    .navigation {
-      justify-content: left;
-    }
-  
-    .profile-image {
-      margin: 1rem auto 2rem;
-    }
-  
-    .text-section {
-      text-align: left;
-    }
-  
-    .social-links {
-      justify-content: left;
-    }
-  
-    .image-section {
-      display: none;
-    }
+@media (max-width: 768px) {
+  body {
+    padding-top: 1rem;
   }
 
-/* accordion on portfolio page */  
+  .container {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
 
-  .accordionWrapper{padding:30px;float:left;width:80%;box-sizing:border-box;margin:10%;}
+  .navigation {
+    justify-content: left;
+  }
+
+  .profile-image {
+    display: none;
+  }
+
+  .text-section {
+    text-align: left;
+  }
+
+  .social-links {
+    justify-content: left;
+  }
+
+  .image-section {
+    display: none;
+  }
+}
+
+.accordionWrapper{padding:30px;float:left;width:80%;box-sizing:border-box;margin:10%;}
 .accordionItem{
     float:left;
     display:block;
@@ -175,7 +175,8 @@ border-radius: 3px;
 	-ms-transform: scaleY(0);
 	transform: scaleY(0);
     float:left;
-    display:block;    
+    display:block;
+    
     
 }
 .open .accordionItemContent{
@@ -221,6 +222,38 @@ border-radius: 3px;
 .test, .tests{
   display: none;
 };
+
+  
+  @media (max-width: 768px) {
+    body {
+      padding-top: 1rem;
+    }
+  
+    .container {
+      grid-template-columns: 1fr;
+      text-align: left;
+    }
+  
+    .navigation {
+      justify-content: left;
+    }
+  
+    .profile-image {
+      margin: 1rem auto 2rem;
+    }
+  
+    .text-section {
+      text-align: left;
+    }
+  
+    .social-links {
+      justify-content: left;
+    }
+  
+    .image-section {
+      display: none; /* Hide the larger image section on mobile */
+    }
+  }
 
 
 
