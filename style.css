@@ -146,6 +146,8 @@
   }
 }
 
+  /* portfolio accordion */
+
 .accordionWrapper{padding:30px;float:left;width:80%;box-sizing:border-box;margin:10%;}
 .accordionItem{
     float:left;
