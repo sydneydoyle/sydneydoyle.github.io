@@ -34,7 +34,6 @@
     transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   }
   
-  /* Navigation link hover effects */
   .navigation a:nth-child(1):hover {
     box-shadow: inset 200px 0 0 0 #C96842;
   }
