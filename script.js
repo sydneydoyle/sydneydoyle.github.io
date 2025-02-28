@@ -1,5 +1,5 @@
 function checkPassword(event) {
-  event.preventDefault(); // Prevent the default link behavior
+  event.preventDefault();
   const password = prompt("Enter the password to access the portfolio:");
   if (password === "janeausten") {
     // Redirect if the password is correct
