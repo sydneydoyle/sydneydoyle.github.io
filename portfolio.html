@@ -1,114 +1,228 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Case Studies | Sydney Doyle</title><meta name="description" content="A portfolio case study by Sydney Doyle"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inconsolata:wght@400;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"><style>:root{color-scheme:light}*{box-sizing:border-box}body{margin:0;background:#f5f5f5;color:#333;font:16px/1.8 'Inter',sans-serif}a{color:#425d32;text-underline-offset:3px}a:hover{color:#9c482b}a:focus-visible,summary:focus-visible{outline:3px solid #C96842;outline-offset:4px}header,main,footer{max-width:960px;margin:auto;padding:24px}header{display:flex;justify-content:flex-end;align-items:center;gap:20px}header>a{font-family:'Indie Flower',cursive;font-size:1.7rem;font-weight:400;text-decoration:none;color:#000;margin-right:auto}nav{display:flex;gap:25px;flex-wrap:wrap;font:400 25px 'Inconsolata',monospace}nav a{text-decoration:none;color:#000;padding:0 5px}nav a{box-shadow:inset 0 0 0 0 #C96842;transition:box-shadow .3s ease-in-out,color .3s ease-in-out}nav a:nth-child(2){box-shadow:inset 0 0 0 0 #788B55}nav a:nth-child(3){box-shadow:inset 0 0 0 0 #EFD27A}nav a:hover{box-shadow:inset 220px 0 0 0 #C96842;color:#000}nav a:nth-child(2):hover{box-shadow:inset 220px 0 0 0 #788B55}nav a:nth-child(3):hover{box-shadow:inset 220px 0 0 0 #EFD27A}h1,h2,h3{line-height:1.3}h1{font:600 clamp(2.2rem,4.5vw,3.25rem)/1.18 'Inter',sans-serif;letter-spacing:-.045em;color:#111;max-width:850px;margin:22px 0}h2{font:400 2.25rem/1.2 'Indie Flower',cursive;color:#111;margin:50px 0 20px}h3{font-size:1.15rem;margin:0 0 8px}p{max-width:76ch}.eyebrow{font:400 .92rem 'Inter',sans-serif;letter-spacing:0;text-transform:none;color:#666}.lead{font-size:1.05rem;font-weight:300;color:#454545;max-width:780px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:19px}.project{font-family:'Inter',sans-serif;background:#fff;border:1px solid #ddd8c9;border-top:8px solid #EFD27A;border-radius:4px;padding:23px;display:flex;flex-direction:column;gap:11px;box-shadow:3px 4px 0 #e9e6dd}.project:nth-child(3n+2){border-top-color:#788B55}.project:nth-child(3n){border-top-color:#C96842}.project p{margin:0;font-size:16px;line-height:1.8;font-weight:300}.project .result{font-weight:600}.project a{font-family:'Inter',sans-serif;font-size:1rem;font-weight:600;margin-top:auto}.meta{font:400 .9rem 'Inter',sans-serif;color:#666}.result{font-weight:600;color:#4c6034}.compact{padding:18px 20px}.compact h3{font-size:1rem}.compact p{font-size:.9rem}.case{max-width:790px}.case p{margin:18px 0}.case img{max-width:100%;height:auto;border-radius:4px}.case a{overflow-wrap:anywhere}details{background:#fff;border:1px solid #dedbd0;border-left:5px solid #EFD27A;border-radius:3px;margin:12px 0;padding:12px 18px}summary{cursor:pointer;font-family:'Inconsolata',monospace;font-weight:400;font-size:1rem;line-height:1.55}details .case{padding:12px 0 5px}hr{border:0;border-top:2px solid #EFD27A;margin:30px 0}footer{border-top:1px solid #d5d5d5;color:#60665e;font:1rem 'Inconsolata',monospace;margin-top:55px}@media(max-width:700px){.grid{grid-template-columns:1fr}header{align-items:flex-start;flex-direction:column}header,main,footer{padding:18px}nav{font-size:20px}.project{padding:20px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}/* Editorial project index: flat, readable, and consistent with the About page. */
-.grid{display:block}
-.grid[aria-label="Featured case studies"]{counter-reset:featured;border-top:1px solid #c9c9c2}
-.grid[aria-label="Featured case studies"]>.project{counter-increment:featured;position:relative;display:grid;grid-template-columns:52px minmax(0,1fr);column-gap:16px;row-gap:7px;padding:25px 8px 27px 0;border:0;border-bottom:1px solid #c9c9c2;border-radius:0;background:transparent;box-shadow:none}
-.grid[aria-label="Featured case studies"]>.project::before{content:counter(featured,decimal-leading-zero) ".";grid-column:1;grid-row:1 / span 4;font:400 1rem/1.5 'Inconsolata',monospace;color:#788B55}
-.grid[aria-label="Featured case studies"]>.project h3,.grid[aria-label="Featured case studies"]>.project p,.grid[aria-label="Featured case studies"]>.project a{grid-column:2}
-.grid[aria-label="Featured case studies"]>.project h3{font-size:clamp(1.15rem,2.2vw,1.42rem);font-weight:600;line-height:1.4;letter-spacing:-.025em;margin:0}
-.grid[aria-label="Featured case studies"]>.project p{font-weight:400;line-height:1.65}
-.grid[aria-label="Featured case studies"]>.project .result{font-weight:500;color:#5d654e}
-.grid[aria-label="Featured case studies"]>.project a{width:max-content;margin-top:6px;font:400 1rem 'Inconsolata',monospace;text-decoration-thickness:1px}
-.grid[aria-label="Featured case studies"]>.project a:hover{background:#EFD27A;color:#222}
-.grid[aria-label="Additional Hightouch projects"],.grid[aria-label="Additional writing, learning, and technical samples"]{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px}
-.grid:not([aria-label="Featured case studies"])>.project{border:0;border-bottom:1px solid #d0d0c9;border-radius:0;background:transparent;box-shadow:none;padding:19px 0;gap:8px}
-.grid:not([aria-label="Featured case studies"])>.project h3{font-weight:500}
-.grid:not([aria-label="Featured case studies"]) details{margin:4px 0 0}
-@media(max-width:700px){.grid[aria-label="Additional Hightouch projects"],.grid[aria-label="Additional writing, learning, and technical samples"]{grid-template-columns:1fr}.grid[aria-label="Featured case studies"]>.project{grid-template-columns:34px minmax(0,1fr);column-gap:9px;padding:22px 0}}
-</style></head><body><header><a href="index.html">sydney doyle</a><nav aria-label="Main navigation"><a href="index.html">about</a><a href="https://docs.google.com/document/d/1Vzw0owPnJ5pjCdYNVufnUiZCaZ_LIrQN7u69ImsbECU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a></nav></header><main><h2>Featured case studies</h2><section class="grid" aria-label="Featured case studies"><article class="project"><h3>Modernizing Hightouch's Documentation Platform</h3><p>Evaluated build-versus-buy options, prototyped capabilities, and led a managed-platform migration.</p><p class="result">Substantially reduced vendor costs; launched ahead of plan.</p><a href="case-study-docs-platform.html" aria-label="Read case study: Modernizing Hightouch's Documentation Platform">Read case study</a></article>
-<article class="project"><h3>Building an AI-Assisted Documentation System</h3><p>Designed a shared writing, review, and quality-control pipeline for humans and AI contributors.</p><p class="result">1,003 merged documentation PRs over ~18 months, across contributors.</p><a href="case-study-ai-docs.html" aria-label="Read case study: Building an AI-Assisted Documentation System">Read case study</a></article>
-<article class="project"><h3>Designing Documentation Around User Workflows</h3><p>Shifted feature-oriented docs toward guided onboarding for marketers, administrators, and data teams.</p><p class="result">Persona-based navigation and guided lifecycle and paid-media journeys.</p><a href="case-study-docs-ux.html" aria-label="Read case study: Designing Documentation Around User Workflows">Read case study</a></article>
-<article class="project"><h3>Redesigning Tulip University</h3><p>Turned an unstructured course collection into a guided homepage and a separately searchable catalog.</p><p class="result">New learning paths, content-type discovery, and improved filtering.</p><a href="case-study-tulip-university.html" aria-label="Read case study: Redesigning Tulip University">Read case study</a></article></section><h2>More knowledge and enablement systems</h2><section class="grid" aria-label="Additional Hightouch projects"><article class="project compact"><h3>Connecting Internal Knowledge Across Teams</h3><details><summary>Read project details</summary><div class="case">
-          <p><strong>Challenge:</strong> Product updates, implementation decisions, customer questions, and troubleshooting knowledge were distributed across Product, Engineering, Support, and customer-facing teams. Valuable context often remained in individual conversations or tools rather than becoming reusable guidance.</p>
-          <p><strong>Knowledge capture:</strong> I developed internal guides and repeatable processes for collecting subject-matter expertise and translating recurring support and implementation questions into shared, actionable resources. I analyzed patterns in Pylon tickets and incorporated common issues into public troubleshooting content and consolidated error-code guidance where appropriate.</p>
-          <p><strong>Shared standards:</strong> I connected this work to reusable documentation templates, contributor guidance, and AI-assisted writing and review workflows so knowledge gathered from different teams could be maintained consistently instead of remaining siloed.</p>
-          <p><strong>Direction:</strong> This work is evolving toward a continuous knowledge system that connects product changes, support signals, and implementation context with the documentation and enablement resources teams rely on. The goal is to make institutional knowledge easier to capture, verify, reuse, and keep current.</p></div></details></article>
-<article class="project compact"><h3>Designing a Role-Based Customer Success Enablement System</h3><details><summary>Read project details</summary><div class="case">
-          <p><strong>Challenge:</strong> Post-sales teams needed to learn not just how Hightouch's products work, but how to implement them, troubleshoot issues, and guide customers through real workflows. Documentation, Academy content, recordings, and internal resources were fragmented, and ownership across roles was not always clear.</p>
-          <p><strong>Experience design:</strong> I designed a Customer Success Enablement Directory with four task-based entry points: learn, practice, work with a customer, and find a resource. I mapped responsibilities across post-sales roles and created consistent routing to the right guidance.</p>
-          <p><strong>Reusable hubs:</strong> I structured 15 product hubs around <em>Start here → See it in practice → Implement → Troubleshoot → Practice</em>, connecting product documentation, Academy lessons, customer-workshop recordings, implementation guides, troubleshooting paths, and exercises.</p>
-          <p><strong>Operational workflows:</strong> I organized guidance for recurring post-sales jobs such as planning implementations, running workshops, validating launches, escalating issues, handoffs, and expansion. Destination guides follow a consistent plan, configure, test, troubleshoot, and escalate sequence.</p>
-          <p><strong>Governance:</strong> Resource indexing, named owners, review dates, and rollout tracking make the system maintainable. As of the August 2026 version, some hubs and practice exercises were still in progress.</p>
-          <p><strong>Approach:</strong> I treated enablement as a navigable experience designed around roles, decisions, and practical application—not simply a collection of training links.</p></div></details></article>
-<article class="project compact"><h3>Designing AI-Powered Knowledge and Enablement Workflows</h3><details><summary>Read project details</summary><div class="case">
-          <p><strong>Challenge:</strong> Product knowledge was being recreated across documentation, post-sales enablement, Academy courses, and internal communications. I wanted reliable knowledge to be reusable across these different workflows.</p>
-          <p><strong>AI-accessible knowledge:</strong> I developed a post-sales enablement skill with structured reference material based on implementation patterns and guidance for customer-facing roles. The skill incorporates feedback and serves as a reusable source for other AI-assisted workflows.</p>
-          <p><strong>Academy automation:</strong> I built an AI-assisted course-development command that reviews existing content and the enablement skill's references, flags gaps or not-yet-released features, and asks subject-matter experts for missing context before drafting course modules.</p>
-          <p><strong>Practical automation:</strong> I developed AI-assisted documentation contribution workflows and scripts for consistent demo environments. Agent-facing documentation, <code>llms.txt</code>, and <code>llms-full.txt</code> also make documentation more usable by AI tools.</p>
-          <p><strong>Experimental product-change intelligence:</strong> I am prototyping scheduled workflows that identify shipped changes and draft separate briefs for Customer Success and Docs. Early tests exposed a difficult evaluation problem: detecting a change is easier than judging its relevance to users. I am working on evaluation criteria and a shared change registry; this is not yet a production-ready autonomous system.</p>
-          <p><strong>Design principle:</strong> Capture knowledge in reusable sources, build task-specific workflows on top, and evaluate the outputs before they guide customer-facing decisions.</p></div></details></article></section><h2>Additional writing, learning, and technical samples</h2><p>Earlier work from Tulip and other projects. Expand a sample to see the context and links.</p><section aria-label="Additional portfolio samples"><details><summary>Designing Guided Onboarding for Platform Governance</summary><div class="case">
-          <span>Disclaimer: only publicly available work from previous employment is featured on this portfolio.</span>
-          <br><br>
-          <p><a href ="https://docs.google.com/document/d/1eg8B29go6WH32y8VozRBwEGJ97qBkv6RmE5BL19ag6k/edit?usp=sharing" target="blank">Open Sample</a></p>
-          <p>To address user challenges in navigating content related to app governance solutions, I conducted a review of analytics in Doc360 and performed both internal stakeholder surveys and external user research. Insights from this research revealed that users struggled to locate and understand key resources on governance topics, particularly during the onboarding process.</p>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Case Studies | Sydney Doyle</title>
+<meta name="description" content="Case studies and work samples by Sydney Doyle: documentation, learning, and AI knowledge systems.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inconsolata:wght@400;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Shared with the case study pages */
+:root{color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:#f5f5f5;color:#333;font:16px/1.8 'Inter',sans-serif}
+a{color:#425d32;text-underline-offset:3px;text-decoration-thickness:1px}
+a:hover{color:#9c482b}
+a:focus-visible{outline:3px solid #C96842;outline-offset:4px}
+header,main,footer{max-width:960px;margin:auto;padding:24px}
+header{display:flex;justify-content:flex-end;align-items:center;gap:20px}
+header>a{font-family:'Indie Flower',cursive;font-size:1.7rem;font-weight:400;text-decoration:none;color:#000;margin-right:auto}
+nav{display:flex;gap:25px;flex-wrap:wrap;font:400 25px 'Inconsolata',monospace}
+nav a{text-decoration:none;color:#000;padding:0 5px;box-shadow:inset 0 0 0 0 #C96842;transition:box-shadow .3s ease-in-out,color .3s ease-in-out}
+nav a:hover{box-shadow:inset 220px 0 0 0 #C96842;color:#000}
+nav a:nth-child(2):hover{box-shadow:inset 220px 0 0 0 #788B55}
+h1,h2,h3{line-height:1.3}
+h2{font:400 2.25rem/1.2 'Indie Flower',cursive;color:#111;margin:64px 0 18px}
+footer{border-top:1px solid #d5d5d5;color:#60665e;font:1rem 'Inconsolata',monospace;margin-top:72px}
 
-          <p>In response, I restructured the Knowledge Base by applying principles of information architecture and usability. I identified five core areas critical to admin and governance workflows:</p>
+/* Page intro */
+.intro{padding:32px 0 0}
+.eyebrow{margin:0 0 10px;font:400 .95rem 'Inconsolata',monospace;color:#5f6656}
+h1{font:600 clamp(1.8rem,3.4vw,2.5rem)/1.2 'Inter',sans-serif;letter-spacing:-.03em;color:#111;max-width:760px;margin:0}
 
-          <ul>
-            <li>Instance Setup</li>
-            <li>User Management</li>
-            <li>App Management</li>
-            <li>Shop Floor Management</li>
-            <li>Workspace Management</li>
-          </ul>
+/* Featured case studies: numbered rows with screenshots */
+.featured{border-top:1px solid #c9c9c2}
+.feature{display:flex;flex-wrap:wrap;gap:20px 32px;padding:28px 0 30px;border-bottom:1px solid #c9c9c2}
+.feature-text{flex:999 1 400px;min-width:0;display:grid;grid-template-columns:52px minmax(0,1fr);column-gap:16px;row-gap:8px;align-content:start}
+.feature-num{grid-row:span 4;font:400 1rem/1.7 'Inconsolata',monospace;color:#788B55}
+.feature h3{margin:0;font-size:clamp(1.15rem,2.2vw,1.4rem);font-weight:600;letter-spacing:-.02em;color:#111}
+.feature p{margin:0;line-height:1.65}
+.feature .result{font-weight:500;color:#5d654e}
+.feature-text a,.system a,.sample a{width:max-content;font:400 1rem 'Inconsolata',monospace}
+.feature-text a{margin-top:4px}
+.feature-text a:hover,.system a:hover,.sample a:hover{background:#EFD27A;color:#222}
+.shots{flex:1 1 340px;max-width:420px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0}
+.shots figure{margin:0;display:flex;flex-direction:column;gap:6px}
+.shots figcaption{font:400 .82rem 'Inconsolata',monospace;color:#5f6656}
+.frame{aspect-ratio:5/4;border:1px solid #dcdad2;border-radius:6px;overflow:hidden;background:#fff}
+.frame img{display:block;width:100%;height:100%;object-fit:cover;object-position:top left}
 
-          <p>I developed an overview article to serve as an entry point for users, which was strategically placed in the "Get Started" section of the Knowledge Base. This article provided clear user pathways by linking directly to detailed introductory articles for each of the five areas.</p>
+/* More systems: three plain columns */
+.systems{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:32px}
+.system{border-top:1px solid #c9c9c2;padding-top:18px;display:flex;flex-direction:column;gap:10px}
+.tags{margin:0;font:400 .88rem 'Inconsolata',monospace;color:#5f6656}
+.system h3{margin:0;font-size:1.1rem;font-weight:600;color:#111}
+.system p{margin:0;font-size:15px;line-height:1.65}
+.system a{margin-top:auto}
 
-          <p>Because my audience was manufacturing process engineers who likely have never worked with this type of software before, I immediately emphasized both the value of platform governance as well as the consequences and risks of failing to build a control program.</p>
+/* Earlier samples: compact gallery */
+.section-note{margin:0 0 22px;font-size:15px;color:#5f6656;max-width:70ch}
+.samples{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}
+.sample{background:#fff;border:1px solid #e2e0d8;border-radius:6px;padding:16px 16px 14px;display:flex;flex-direction:column;gap:8px}
+.sample h3{margin:0;font-size:15px;line-height:1.4;font-weight:600;color:#111}
+.sample p{margin:0;font-size:14px;line-height:1.55;color:#444}
+.sample .tags{font-size:.82rem}
+.sample a{font-size:.9rem;margin-top:auto;padding-top:4px}
+.sample .links{display:flex;flex-wrap:wrap;gap:4px 16px;margin-top:auto;padding-top:4px}
+.sample .links a{margin-top:0;padding-top:0}
 
-          <p>By organizing content around these key themes and crafting contextual overviews, I enhanced the discoverability of resources, streamlined the user journey, and reduced cognitive load for users exploring governance solutions.</p>
+@media(max-width:700px){
+  header{align-items:flex-start;flex-direction:column}
+  header,main,footer{padding:18px}
+  nav{font-size:20px}
+  .feature-text{grid-template-columns:34px minmax(0,1fr);column-gap:9px}
+  .shots{max-width:none}
+}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <a href="index.html">sydney doyle</a>
+  <nav aria-label="Main navigation">
+    <a href="index.html">about</a>
+    <a href="https://docs.google.com/document/d/1Vzw0owPnJ5pjCdYNVufnUiZCaZ_LIrQN7u69ImsbECU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a>
+  </nav>
+</header>
 
-          <p>In the 6 months following publication, this overview article alone saw a 160% increase in engagement compared to the prior 6 months.</p></div></details>
-<details><summary>Building a Guided Digital Transformation Learning Journey</summary><div class="case">
-          <span>Disclaimer: only publicly available work from previous employment is featured on this portfolio.</span>
-        <br><br>
-        <p><a href ="https://docs.google.com/document/d/1rxmPwv_oBrnolZ9_4popkTob3D6QcytijufXrcqAaKc/edit?usp=sharing" target="blank">Open Sample</a></p>
-        <p>This series of articles was developed after identifying a significant gap in both internal and external knowledge around a core concept the organization aimed to promote. Existing resources for scoring customers on their digital maturity and readiness to adopt our platform were vague and undefined. To address this, I synthesized siloed data from subject matter experts (SMEs) to create clear, actionable checklists that outlined the key areas a customer's organization must address:</p>
+<main>
+  <section class="intro">
+    <p class="eyebrow">Selected work, 2022–2026</p>
+    <h1>Documentation, learning, and AI knowledge systems at Hightouch and Tulip.</h1>
+  </section>
 
-          <ul>
-            <li>Governance</li>
-            <li>Digital Maturity</li>
-            <li>Financial Frameworks</li>
-            <li>Employee Capabilities and Skills</li>
-          </ul>
+  <h2>Featured case studies</h2>
+  <section class="featured" aria-label="Featured case studies">
 
-          <p>Using Figma and Adobe Acrobat, I created interactive checklists that allowed users to engage with the content more dynamically. I then authored an overview article explaining digital transformation, accompanied by four supplementary articles that detailed each of the key areas.</p>
+    <article class="feature">
+      <div class="feature-text">
+        <span class="feature-num">01.</span>
+        <h3>Modernizing Hightouch's Documentation Platform</h3>
+        <p>Evaluated build-versus-buy options, prototyped capabilities, and led a managed-platform migration.</p>
+        <p class="result">Substantially reduced vendor costs; launched ahead of plan.</p>
+        <a href="case-study-docs-platform.html" aria-label="Read case study: Modernizing Hightouch's Documentation Platform">Read case study</a>
+      </div>
+      <div class="shots">
+        <figure><figcaption>Before</figcaption><div class="frame"><img src="assets/portfolio/docs-platform-before.webp" width="640" height="512" loading="lazy" alt="The previous Hightouch docs site's Get started page"></div></figure>
+        <figure><figcaption>After</figcaption><div class="frame"><img src="assets/portfolio/docs-platform-after.webp" width="640" height="512" loading="lazy" alt="The new Hightouch docs site's What's new page with filters and inline product screenshots"></div></figure>
+      </div>
+    </article>
 
-          <p>These resources became essential tools for executives to present digital transformation at conferences, as well as for presales and customer success teams during customer engagements. They defined a critical concept for the first time, bridging a knowledge gap that had previously hindered both internal understanding and effective customer communication.</p></div></details>
-<details><summary>Translating Industry Use Cases into Customer Education</summary><div class="case">
-        <span>DDisclaimer: only publicly available work from previous employment is featured on this portfolio.</span>
-    <br><br>
-<p><a href ="https://drive.google.com/file/d/1_z4mY7nf8qOTRMg35IAeI4iQsb3lJPU7/view?usp=sharing" target="blank">Open Sample</a></p>
-<p><strong>Challenge:</strong> Users struggled to understand a particularly complex concept related to data storage, which is critical in Life Sciences and regulated manufacturing industries. This concept—unique to these fields—posed significant compliance risks. Customer Success Managers reported frequently explaining the same information without an effective resource to share. For regulated industries, understanding and properly using data storage options is essential to ensure full traceability and avoid non-compliance with strict regulations. Failing to do so could lead to severe consequences, such as regulatory violations, fines, and operational disruptions.</p>
-<p><strong>Solution:</strong> To address this challenge, I developed a clear, concise, and user-friendly resource that broke down the complex topic into manageable and digestible components. The deliverable was a short, shareable eBooklet designed for dual audiences: external customers and the internal Customer Success team. This resource included:</p>
-<ul>
-  <li><strong>Visual Aids:</strong> Tables, graphics, and diagrams to simplify and clarify abstract concepts.</li>
-  <li><strong>Targeted Content:</strong> Language tailored to regulated industries, emphasizing the importance of compliance and traceability.</li>
-  <li><strong>Accessibility:</strong> Designed in a portable PDF format, ensuring ease of sharing and reference.</li>
-</ul>
-<p>With the eBooklet, I also created a quick tip (less than 5 minutes) video tutorial, summarizing key points and visually walking users through the content. Together, these resources served as both a learning tool for customers and a support aid for CSMs.</p>
-<p><strong>Results:</strong> The eBooklet and accompanying video saw immediate and significant engagement:
-The content became one of the top five most-enrolled resources in our customer academy within its first quarter of release.
-Customer Success Managers reported a noticeable reduction in repetitive explanations, allowing them to focus on higher-value tasks.
-Feedback from users highlighted the guide’s clarity and effectiveness in making the complex topic approachable.</p></div></details>
-<details><summary>Teaching UX and Product Design to Non-Designers</summary><div class="case">
-<p><strong>Challenge:</strong> Manufacturing teams were building no-code applications without necessarily having a background in UX research or product design. I wanted to make those principles practical for people designing tools for operators on the shop floor.</p>
-<p><strong>Making user research actionable:</strong> I collaborated with product design to develop guidance on discovery interviews and usability testing, supported by Figma diagrams and manufacturing-specific examples. Rather than teaching research as an abstract methodology, I focused on questions about equipment, handoffs, material flow, shared tools, and constraints such as operators wearing gloves. I also illustrated how small interface inefficiencies could compound across a production team.</p>
-<p><strong>Teaching through interaction:</strong> I partnered with app development and app library teams to create a tutorial app demonstrating effective and ineffective design choices in realistic manufacturing workflows. I wrote accompanying documentation to explain the decisions and help builders apply the principles in their own apps.</p>
-<p><strong>Work samples:</strong> <a href="https://docs.google.com/document/d/1n1DEQ5I8bfoFN0p5v_3rT8qduE7HO6OsBmI6jaVg-Ck/edit?usp=sharing" target="_blank" rel="noopener noreferrer">User research guidance</a> · <a href="https://docs.google.com/document/d/1kBSgdryVjPFgLH_4POWhUM8QRTZg-I2L5FhnuGvr5BA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Interactive app-design tutorial</a></p>
-<p><strong>Broader outcome:</strong> Tulip's app-design course category recorded a reported 138% growth figure from 2024 to 2025. This is a category-level result, not a measure attributable to either individual sample; the underlying growth metric still needs to be specified.</p>
-<p><small>Only publicly available work from previous employment is featured here.</small></p>
-</div></details>
-<details><summary>Simplifying Complex API Setup Through Visual Guidance</summary><div class="case">
-          <span>Disclaimer: only publicly available work from previous employment is featured on this portfolio.</span>
-          <br><br>
-          <p><a href ="https://docs.google.com/document/d/1W5SqnEE4ZRMIi382hn1Rki236syWXiDe9RQJ5-vquVY/edit?usp=sharing" target="blank">Open Sample</a></p>
-          <p>This work sample includes instructional diagrams I designed to illustrate a complex technical concept. These diagrams were part of a larger course aimed at simplifying the topic for learners. Each diagram was created with a focus on clarity, visual hierarchy, and alignment with best practices in instructional design.</p>
+    <article class="feature">
+      <div class="feature-text">
+        <span class="feature-num">02.</span>
+        <h3>Building an AI-Assisted Documentation System</h3>
+        <p>Designed a shared writing, review, and quality-control pipeline for humans and AI contributors.</p>
+        <p class="result">1,003 merged documentation PRs over ~18 months, across contributors.</p>
+        <a href="case-study-ai-docs.html" aria-label="Read case study: Building an AI-Assisted Documentation System">Read case study</a>
+      </div>
+      <div class="shots">
+        <figure><figcaption>For people</figcaption><div class="frame"><img src="assets/portfolio/ai-docs-rendered.webp" width="640" height="512" loading="lazy" alt="The Docs MCP and llms.txt page on the Hightouch docs site"></div></figure>
+        <figure><figcaption>For AI tools</figcaption><div class="frame"><img src="assets/portfolio/ai-docs-markdown.webp" width="640" height="512" loading="lazy" alt="A Hightouch docs page served as plain Markdown for AI tools"></div></figure>
+      </div>
+    </article>
 
-<p>The course also featured a paired instructional video, which I scripted. I am happy to walk through the diagrams and review the paired video/course in detail during a call.</p></div></details>
-<details><summary>Video Tutorial on Using the VLOOKUP Function</summary><div class="case">
-            <p><a href ="https://sydneydoyle.github.io/vlookup/" target="blank">Open Sample</a></p>
-            <p>I coded this sample tutorial and video lesson in GitHub as an example of my ability to clearly and concisely teach a technical concept. </p></div></details>
-<details><summary>Short Story (Creative / Dialogue Example)</summary><div class="case">
-          <p><a href ="https://docs.google.com/document/d/1GIwEfHMtQtCk0TCjvEbls1uW_FUjh1PnhBAOQeAjJdQ/edit?usp=sharing" target="blank">Open Sample</a></p>
-          <p>This short story illustrates my ability to craft character-driven narratives, creative prose, and realistic dialogue. The plot is absurdist, centering around a man who suddenly finds himself famous without knowing why. </p></div></details>
-</section></main><footer>Selected work by Sydney Doyle</footer></body></html>
+    <article class="feature">
+      <div class="feature-text">
+        <span class="feature-num">03.</span>
+        <h3>Designing Documentation Around User Workflows</h3>
+        <p>Shifted feature-oriented docs toward guided onboarding for marketers, administrators, and data teams.</p>
+        <p class="result">Persona-based navigation and guided lifecycle and paid-media journeys.</p>
+        <a href="case-study-docs-ux.html" aria-label="Read case study: Designing Documentation Around User Workflows">Read case study</a>
+      </div>
+      <div class="shots">
+        <figure><figcaption>Start by role</figcaption><div class="frame"><img src="assets/portfolio/docs-ux-by-role.webp" width="640" height="512" loading="lazy" alt="A Get started by team table linking platform admins, data teams, lifecycle marketers, and paid media marketers to their guides"></div></figure>
+        <figure><figcaption>Grouped by task</figcaption><div class="frame"><img src="assets/portfolio/docs-ux-by-task.webp" width="388" height="310" loading="lazy" alt="Workspace management navigation grouped under Set up workspaces and Manage access"></div></figure>
+      </div>
+    </article>
+
+    <article class="feature">
+      <div class="feature-text">
+        <span class="feature-num">04.</span>
+        <h3>Redesigning Tulip University</h3>
+        <p>Turned an unstructured course collection into a guided homepage and a separately searchable catalog.</p>
+        <p class="result">New learning paths, content-type discovery, and improved filtering.</p>
+        <a href="case-study-tulip-university.html" aria-label="Read case study: Redesigning Tulip University">Read case study</a>
+      </div>
+      <div class="shots">
+        <figure><figcaption>Before</figcaption><div class="frame"><img src="assets/portfolio/tulip-before.webp" width="640" height="512" loading="lazy" alt="The original Tulip University course grid"></div></figure>
+        <figure><figcaption>After</figcaption><div class="frame"><img src="assets/portfolio/tulip-after.webp" width="640" height="512" loading="lazy" alt="The redesigned Tulip University homepage with guided learning paths"></div></figure>
+      </div>
+    </article>
+  </section>
+
+  <h2>More knowledge and enablement systems</h2>
+  <section class="systems" aria-label="Additional Hightouch projects">
+    <article class="system">
+      <p class="tags">Knowledge capture · Support</p>
+      <h3>Connecting Internal Knowledge Across Teams</h3>
+      <p>Turned recurring support tickets and SME conversations into shared troubleshooting and error-code guidance.</p>
+      <a href="project-internal-knowledge.html" aria-label="Read more: Connecting Internal Knowledge Across Teams">Read more →</a>
+    </article>
+    <article class="system">
+      <p class="tags">Enablement · Information architecture</p>
+      <h3>Designing a Role-Based Customer Success Enablement System</h3>
+      <p>A directory with four task-based entry points and 15 product hubs for post-sales teams.</p>
+      <a href="project-cs-enablement.html" aria-label="Read more: Designing a Role-Based Customer Success Enablement System">Read more →</a>
+    </article>
+    <article class="system">
+      <p class="tags">AI workflows</p>
+      <h3>Designing AI-Powered Knowledge and Enablement Workflows</h3>
+      <p>An enablement skill, a course-drafting command for Academy, and llms.txt for agent-facing docs.</p>
+      <a href="project-ai-workflows.html" aria-label="Read more: Designing AI-Powered Knowledge and Enablement Workflows">Read more →</a>
+    </article>
+  </section>
+
+  <h2>Earlier samples</h2>
+  <p class="section-note">Writing, learning, and technical samples, mostly from Tulip. Only publicly available work from previous employment is shown.</p>
+  <section class="samples" aria-label="Earlier samples">
+    <article class="sample">
+      <p class="tags">Knowledge base · Tulip</p>
+      <h3>Designing Guided Onboarding for Platform Governance</h3>
+      <p>Reorganized governance content around five admin areas. The overview article saw 160% more engagement in six months.</p>
+      <a href="https://docs.google.com/document/d/1eg8B29go6WH32y8VozRBwEGJ97qBkv6RmE5BL19ag6k/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Open sample ↗</a>
+    </article>
+    <article class="sample">
+      <p class="tags">Article series · Tulip</p>
+      <h3>Building a Guided Digital Transformation Learning Journey</h3>
+      <p>Interactive checklists that defined digital maturity for the first time, used by executives and presales.</p>
+      <a href="https://docs.google.com/document/d/1rxmPwv_oBrnolZ9_4popkTob3D6QcytijufXrcqAaKc/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Open sample ↗</a>
+    </article>
+    <article class="sample">
+      <p class="tags">eBooklet + video · Tulip</p>
+      <h3>Translating Industry Use Cases into Customer Education</h3>
+      <p>Explained regulated data storage. A top-five most-enrolled academy resource in its first quarter.</p>
+      <a href="https://drive.google.com/file/d/1_z4mY7nf8qOTRMg35IAeI4iQsb3lJPU7/view?usp=sharing" target="_blank" rel="noopener noreferrer">Open sample ↗</a>
+    </article>
+    <article class="sample">
+      <p class="tags">Course + tutorial app · Tulip</p>
+      <h3>Teaching UX and Product Design to Non-Designers</h3>
+      <p>Discovery interviews, usability testing, and a tutorial app of good and bad design choices for no-code builders on the shop floor.</p>
+      <p class="links"><a href="https://docs.google.com/document/d/1n1DEQ5I8bfoFN0p5v_3rT8qduE7HO6OsBmI6jaVg-Ck/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Research guide ↗</a><a href="https://docs.google.com/document/d/1kBSgdryVjPFgLH_4POWhUM8QRTZg-I2L5FhnuGvr5BA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Tutorial app ↗</a></p>
+    </article>
+    <article class="sample">
+      <p class="tags">Diagrams · Tulip</p>
+      <h3>Simplifying Complex API Setup Through Visual Guidance</h3>
+      <p>Instructional diagrams and a scripted video for a course on a complex technical concept.</p>
+      <a href="https://docs.google.com/document/d/1W5SqnEE4ZRMIi382hn1Rki236syWXiDe9RQJ5-vquVY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Open sample ↗</a>
+    </article>
+    <article class="sample">
+      <p class="tags">Coded tutorial + video</p>
+      <h3>Video Tutorial on Using the VLOOKUP Function</h3>
+      <p>A hand-coded lesson and short video teaching one spreadsheet function.</p>
+      <a href="https://sydneydoyle.github.io/vlookup/" target="_blank" rel="noopener noreferrer">Open sample ↗</a>
+    </article>
+    <article class="sample">
+      <p class="tags">Fiction</p>
+      <h3>Short Story</h3>
+      <p>An absurdist story about a man who suddenly finds himself famous without knowing why.</p>
+      <a href="https://docs.google.com/document/d/1GIwEfHMtQtCk0TCjvEbls1uW_FUjh1PnhBAOQeAjJdQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Open sample ↗</a>
+    </article>
+  </section>
+</main>
+
+<footer>Selected work by Sydney Doyle</footer>
+</body>
+</html>
