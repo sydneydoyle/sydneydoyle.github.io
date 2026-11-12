@@ -31,11 +31,12 @@
       <div class="accordionItem close">
         <h2 class="accordionItemHeading">Hightouch: Building an AI-Assisted Documentation Production System</h2>
         <div class="accordionItemContent">
-          <p><strong>Challenge:</strong> A single documentation owner could not sustainably keep pace with rapid product development. Documentation needed to become a shared, reliable workflow for engineers, product managers, customer-facing teams, and AI-assisted contributors.</p>
-          <p><strong>System design:</strong> I built a reusable Claude-assisted workflow spanning research, drafting, review, changelog creation, and publication. I paired it with structured page templates, editorial standards, agent guidance, and a feedback loop that turns recurring review findings into improved rules.</p>
-          <p><strong>Quality and governance:</strong> I implemented automated checks for documentation structure, navigation, links and anchors, redirects, metadata, and changelog formatting, alongside linting and tests. Contributor guidance and pull-request workflows made it easier for colleagues to submit changes while maintaining consistent quality standards.</p>
-          <p><strong>Scale:</strong> Across the documentation repositories, merged PRs rose from <strong>262 in the 12 months before May 2025</strong> to <strong>1,003 over the following approximately 18 months</strong>. I authored 559 merged PRs; about 44% of the total came from other contributors. These figures show increased contribution activity alongside the new workflows, not a controlled measure of automation's causal impact.</p>
-          <p><strong>Outcome:</strong> Documentation evolved from a primarily individual writing function into a shared production system with repeatable processes, automated quality checks, and more paths for cross-functional contribution.</p>
+          <p><strong>Challenge:</strong> A single docs owner could not keep pace with rapidly expanding products and updates. I needed a shared contribution system for Engineering, Product, Customer Success, and AI-assisted contributors without sacrificing accuracy.</p>
+          <p><strong>AI-first workflow:</strong> I designed Claude commands spanning research, drafting, voice review, accuracy review, changelog entries, PR summaries, evaluations, and promotion of recurring lessons into shared rules. Reusable skills, templates, and agent instructions make the process repeatable, with human verification before publication.</p>
+          <p><strong>Automated quality:</strong> I built CI checks for frontmatter, dates, navigation, redirects, anchors, changelog format, and other requirements, plus Vale linting and tests. Contributor guidance and AI-assisted pull-request routing help other teams make changes within the same standards.</p>
+          <p><strong>Iteration:</strong> I am refining an independent review step that checks documentation claims against product code. An in-progress optimization reduced rules loaded per edit from roughly 16,500 to 6,500 tokens; that is a context-efficiency improvement, not a measured overall cost saving.</p>
+          <p><strong>Scale:</strong> Merged docs PRs increased from <strong>262 in the 12 months before May 2025</strong> to <strong>1,003 over the following approximately 18 months</strong>. I authored 559; about 44% came from other contributors. This shows greater contribution activity alongside the system, without attributing all growth to automation.</p>
+          <p><strong>Outcome:</strong> Documentation became a shared, standards-driven production workflow with automated checks and human oversight rather than a queue of individual writing requests.</p>
         </div>
       </div>
       <div class="accordionItem close">
@@ -56,6 +57,28 @@
           <p><strong>Knowledge capture:</strong> I developed internal guides and repeatable processes for collecting subject-matter expertise and translating recurring support and implementation questions into shared, actionable resources. I analyzed patterns in Pylon tickets and incorporated common issues into public troubleshooting content and consolidated error-code guidance where appropriate.</p>
           <p><strong>Shared standards:</strong> I connected this work to reusable documentation templates, contributor guidance, and AI-assisted writing and review workflows so knowledge gathered from different teams could be maintained consistently instead of remaining siloed.</p>
           <p><strong>Direction:</strong> This work is evolving toward a continuous knowledge system that connects product changes, support signals, and implementation context with the documentation and enablement resources teams rely on. The goal is to make institutional knowledge easier to capture, verify, reuse, and keep current.</p>
+        </div>
+      </div>
+      <div class="accordionItem close">
+        <h2 class="accordionItemHeading">Hightouch: Designing a Role-Based Customer Success Enablement System</h2>
+        <div class="accordionItemContent">
+          <p><strong>Challenge:</strong> Post-sales teams needed to learn not just how Hightouch's products work, but how to implement them, troubleshoot issues, and guide customers through real workflows. Documentation, Academy content, recordings, and internal resources were fragmented, and ownership across roles was not always clear.</p>
+          <p><strong>Experience design:</strong> I designed a Customer Success Enablement Directory with four task-based entry points: learn, practice, work with a customer, and find a resource. I mapped responsibilities across post-sales roles and created consistent routing to the right guidance.</p>
+          <p><strong>Reusable hubs:</strong> I structured 15 product hubs around <em>Start here → See it in practice → Implement → Troubleshoot → Practice</em>, connecting product documentation, Academy lessons, customer-workshop recordings, implementation guides, troubleshooting paths, and exercises.</p>
+          <p><strong>Operational workflows:</strong> I organized guidance for recurring post-sales jobs such as planning implementations, running workshops, validating launches, escalating issues, handoffs, and expansion. Destination guides follow a consistent plan, configure, test, troubleshoot, and escalate sequence.</p>
+          <p><strong>Governance:</strong> Resource indexing, named owners, review dates, and rollout tracking make the system maintainable. As of the August 2026 version, some hubs and practice exercises were still in progress.</p>
+          <p><strong>Approach:</strong> I treated enablement as a navigable experience designed around roles, decisions, and practical application—not simply a collection of training links.</p>
+        </div>
+      </div>
+      <div class="accordionItem close">
+        <h2 class="accordionItemHeading">Hightouch: Designing AI-Powered Knowledge and Enablement Workflows</h2>
+        <div class="accordionItemContent">
+          <p><strong>Challenge:</strong> Product knowledge was being recreated across documentation, post-sales enablement, Academy courses, and internal communications. I wanted reliable knowledge to be reusable across these different workflows.</p>
+          <p><strong>AI-accessible knowledge:</strong> I developed a post-sales enablement skill with structured reference material based on implementation patterns and guidance for customer-facing roles. The skill incorporates feedback and serves as a reusable source for other AI-assisted workflows.</p>
+          <p><strong>Academy automation:</strong> I built an AI-assisted course-development command that reviews existing content and the enablement skill's references, flags gaps or not-yet-released features, and asks subject-matter experts for missing context before drafting course modules.</p>
+          <p><strong>Practical automation:</strong> I developed AI-assisted documentation contribution workflows and scripts for consistent demo environments. Agent-facing documentation, <code>llms.txt</code>, and <code>llms-full.txt</code> also make documentation more usable by AI tools.</p>
+          <p><strong>Experimental product-change intelligence:</strong> I am prototyping scheduled workflows that identify shipped changes and draft separate briefs for Customer Success and Docs. Early tests exposed a difficult evaluation problem: detecting a change is easier than judging its relevance to users. I am working on evaluation criteria and a shared change registry; this is not yet a production-ready autonomous system.</p>
+          <p><strong>Design principle:</strong> Capture knowledge in reusable sources, build task-specific workflows on top, and evaluate the outputs before they guide customer-facing decisions.</p>
         </div>
       </div>
       <div class="accordionItem close">
